@@ -1130,7 +1130,7 @@ if is_torch_available():
             "MASKFORMER_PRETRAINED_MODEL_ARCHIVE_LIST",
             "MaskFormerForInstanceSegmentation",
             "MaskFormerModel",
-            "MaskFormerPretrainedModel",
+            "MaskFormerPreTrainedModel",
         ]
     )
     _import_structure["models.mbart"].extend(
@@ -3235,7 +3235,7 @@ if TYPE_CHECKING:
             MASKFORMER_PRETRAINED_MODEL_ARCHIVE_LIST,
             MaskFormerForInstanceSegmentation,
             MaskFormerModel,
-            MaskFormerPretrainedModel,
+            MaskFormerPreTrainedModel,
         )
         from .models.mbart import (
             MBartForCausalLM,
